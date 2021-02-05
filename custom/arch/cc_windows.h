@@ -79,7 +79,7 @@ typedef int sys_prot_t;
 
 #ifdef _MSC_VER
 /* C runtime functions redefined */
-#define snprintf _snprintf
+//#define snprintf _snprintf
 #define strdup   _strdup
 #endif
 
