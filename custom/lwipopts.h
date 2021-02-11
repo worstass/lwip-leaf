@@ -30,6 +30,7 @@
 #ifndef LWIP_CUSTOM_LWIPOPTS_H
 #define LWIP_CUSTOM_LWIPOPTS_H
 
+#define LWIP_NORAND 1
 // enable tun2socks logic
 #define TUN2SOCKS 1
 
